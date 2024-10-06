@@ -141,7 +141,6 @@ To begin, download the Visual Studio Code installer for your operating system.
 sudo apt install ./<file>.deb
 ```
 2. Replace `<file>` with the name of the `.deb` file you downloaded.
-3. 
 ---
 ## Step 3:  Verify the Installation
 To verify that VS Code is correctly installed, follow these steps:
@@ -186,7 +185,6 @@ Below are useful resources and documentation for learning more about **Anaconda*
 ## VS Code
 
 - [VS Code Official Documentation](https://code.visualstudio.com/docs): he official documentation covering setup, extensions, and using Visual Studio Code.
-- [GNU Make Manual](https://www.gnu.org/software/make/manual/make.html): The official GNU Make manual, covering how to write `Makefile` scripts and use Make effectively for building projects.
 ---
 
 Feel free to explore these resources for further learning and troubleshooting! Remember that you can always ask your TAs for help with anything you cannot do yourself in a reasonable time frame.
