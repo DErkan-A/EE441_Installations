@@ -157,16 +157,42 @@ Visual Studio Code has a wide variety of extensions and themes available for dif
 2. Click on the **Extensions** icon in the Activity Bar on the left (or press `Ctrl` + `Shift` + `X`).
 3. Search for the extension you want (e.g., Python, JavaScript, etc.).
 4. Click **Install** to add the extension to your editor.
+---
+# Using the Provided Makefile Project
+For your assignments, you are going to use the project template given. Your source codes should be placed in the `src` folder.
 
+## Compiling the Source Files and Executing the Generated Program
+1. Open **Anaconda Prompt** in the project directory.
+2. Type the following command and press enter:
+```bash
+make
+```
+3. An executable will be generated with the project folder's name.
+4. Type the following command where `<Executable>` is the name of the generated executable file and press enter:
+```bash
+./<Executable>
+```
+5. You must recompile each time you change the source files by following these steps.
+
+## Cleaning the Generated Files
+In case a problem occurs you can delete the generated files with the following command:
+```bash
+make clean
+```
 ---
 # Additional Resources
 
-Below are useful resources and documentation for learning more about **Anaconda**, **GCC**, and **GNU Make**.
+Below are useful resources and documentation for learning more about **Anaconda**, **C/C++**, **GCC**, and **GNU Make**.
 
 ## Anaconda/Miniconda Documentation
 
 - [Anaconda Documentation](https://docs.anaconda.com/): Official documentation for Anaconda, including guides on installation, using conda environments, and package management.
 - [Miniconda Documentation](https://docs.conda.io/en/latest/miniconda.html): Official documentation for Miniconda, a lightweight version of Anaconda, which includes the `conda` package manager.
+
+## C/C++
+
+- [cppreference.com](https://en.cppreference.com/): A comprehesive guide for C/C++ language and standard libraries in a wiki format. It is maintained by a group of C++ enthusiasts from around the world.
+- [Compiler Explorer](https://godbolt.org/): An online compiler for C/C++ developed by Matt Godbolt. It is useful for checking code snippets and/or comparing the behavior of different compilers.
 
 ## Conda-forge
 
