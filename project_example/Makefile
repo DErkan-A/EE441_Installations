@@ -39,4 +39,4 @@ $(OBJ_DIR):
 	mkdir $(OBJ_DIR)
 
 .PHONY: all clean
-.PRECIOUS: ./%$(OUT_EXT) $(OBJ_DIR)/%.o
+.PRECIOUS: ./$(OUT)$(OUT_EXT) $(OBJ_DIR)/%.o
