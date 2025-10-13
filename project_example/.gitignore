@@ -11,6 +11,12 @@
 *.gch
 *.pch
 
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -30,3 +36,11 @@
 *.exe
 *.out
 *.app
+project
+project.exe
+
+# debug information files
+*.dwo
+
+# vscode
+.vscode/
